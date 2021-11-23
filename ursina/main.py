@@ -237,6 +237,9 @@ class Ursina(ShowBase):
         print('application successfully started')
 
         super().run()
+        
+    def close_window(self):
+        super().destroy()
 
 
 if __name__ == '__main__':
